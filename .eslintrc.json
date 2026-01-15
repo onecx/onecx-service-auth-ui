@@ -1,0 +1,24 @@
+{
+  "ignorePatterns": ["!**/*"],
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "rules": {}
+    },
+    {
+      "files": ["*.js", "*.jsx"],
+      "rules": {}
+    },
+    {
+      "files": ["*.ts"],
+      "extends": ["plugin:@nx/angular"],
+      "rules": {}
+    },
+    {
+      "files": ["*.html"],
+      "extends": ["plugin:@nx/angular-template"],
+      "rules": {}
+    }
+  ],
+  "extends": ["./.eslintrc.base.json"]
+}

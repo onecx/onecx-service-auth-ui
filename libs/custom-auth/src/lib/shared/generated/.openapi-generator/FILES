@@ -1,0 +1,11 @@
+.openapi-generator-ignore
+apis/ExtensionsInternalApi.ts
+apis/index.ts
+index.ts
+models/ConfigRequest.ts
+models/ConfigResponse.ts
+models/ProblemDetailInvalidParam.ts
+models/ProblemDetailParam.ts
+models/ProblemDetailResponse.ts
+models/index.ts
+runtime.ts

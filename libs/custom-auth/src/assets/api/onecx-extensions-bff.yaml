@@ -1,0 +1,92 @@
+openapi: '3.0.3'
+info:
+  title: onecx-service-auth-bff
+  version: '1.0'
+servers:
+  - url: https://onecx-service-auth-bff:8080
+tags:
+  - name: ExtensionsInternal
+    description: Extensions internal methods
+paths:
+  /config:
+    post:
+      tags:
+        - ExtensionsInternal
+      summary: Get extension configuration
+      operationId: getConfiguration
+      requestBody:
+        description: Request for configuration
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ConfigRequest'
+      responses:
+        200:
+          description: Request current configuration
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ConfigResponse'
+        400:
+          description: Bad request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ProblemDetailResponse'
+        404:
+          description: Data not found
+components:
+  schemas:
+    ConfigRequest:
+      type: object
+      required:
+        - href
+      properties:
+        href:
+          type: string
+        idpHint:
+          type: string
+        idmId:
+          type: string
+    ConfigResponse:
+      type: object
+      required:
+        - url
+      properties:
+        idpHint:
+          type: string
+          description: sso idp hint
+        url:
+          type: string
+        idmId:
+          type: string
+    ProblemDetailResponse:
+      type: object
+      properties:
+        errorCode:
+          type: string
+        detail:
+          type: string
+        params:
+          type: array
+          items:
+            $ref: '#/components/schemas/ProblemDetailParam'
+        invalidParams:
+          type: array
+          items:
+            $ref: '#/components/schemas/ProblemDetailInvalidParam'
+    ProblemDetailParam:
+      type: object
+      properties:
+        key:
+          type: string
+        value:
+          type: string
+    ProblemDetailInvalidParam:
+      type: object
+      properties:
+        name:
+          type: string
+        message:
+          type: string

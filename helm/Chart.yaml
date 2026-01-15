@@ -1,0 +1,17 @@
+apiVersion: v2
+name: onecx-service-auth-ui
+version: 0.0.0
+description: OneCX service custom auth UI
+home: https://github.com/onecx/onecx-service-auth-ui
+keywords:
+  - service-auth
+sources:
+  - https://github.com/onecx/onecx-service-auth-ui
+maintainers:
+  - name: OneCX Developer Team
+    email: tkit_dev@1000kit.org
+dependencies:
+  - name: helm-angular-app
+    version: 0.22.0
+    repository: oci://ghcr.io/onecx/charts
+    alias: app

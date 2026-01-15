@@ -1,0 +1,25 @@
+{
+  "name": "custom-auth",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "custom-auth/src",
+  "prefix": "lib",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/webpack:webpack",
+      "options": {
+        "webpackConfig": "libs/custom-auth/webpack.config.js",
+        "outputPath": "dist/libs/custom-auth",
+        "rootMode": "upward"
+      }
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "custom-auth/jest.config.ts"
+      }
+    }
+  }
+}
