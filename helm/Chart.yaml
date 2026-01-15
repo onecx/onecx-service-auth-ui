@@ -1,7 +1,7 @@
 apiVersion: v2
 name: onecx-service-auth-ui
 version: 0.0.0
-description: OneCX example custom auth UI
+description: OneCX service custom auth UI
 home: https://github.com/onecx/onecx-service-auth-ui
 keywords:
   - service-auth
