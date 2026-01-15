@@ -18,7 +18,7 @@ const bypassFn = function (req, res) {
 
 const PROXY_CONFIG = {
   '/bff': {
-    target: 'http://onecx-example-custom-auth-bff',
+    target: 'http://onecx-service-auth-bff',
     secure: false,
     pathRewrite: {
       '^.*/bff': '',

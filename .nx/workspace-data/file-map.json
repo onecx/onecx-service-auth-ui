@@ -43,7 +43,7 @@
     "webpack-cli": "^5.1.4"
   },
   "pathMappings": {
-    "@onecx-example-custom-auth-ui/custom-auth": [
+    "@onecx-service-auth-ui/custom-auth": [
       "custom-auth/src/index.ts"
     ]
   },
@@ -182,7 +182,7 @@
           ]
         }
       ],
-      "onecx-example-custom-auth-ui": [
+      "onecx-service-auth-ui": [
         {
           "file": ".eslintignore",
           "hash": "7663861978715868291"

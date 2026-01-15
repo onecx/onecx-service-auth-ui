@@ -1,7 +1,7 @@
 app:
   name: ui
   image:
-    repository: 'onecx/onecx-example-custom-auth-ui'
+    repository: 'onecx/onecx-service-auth-ui'
   routing:
     enabled: true
     path: /mfe/example/
@@ -16,8 +16,8 @@ app:
           note: "OneCX Custom Auth UI auto import via MF operator"
           type: MODULE
           technology: WEBCOMPONENTMODULE
-          remoteName: onecx-example-custom-auth
-          tagName: ocx-example-custom-auth-component
+          remoteName: onecx-service-auth
+          tagName: ocx-service-auth-component
     # Microservice
     microservice:
       spec:

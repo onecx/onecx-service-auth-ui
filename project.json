@@ -1,5 +1,5 @@
 {
-  "name": "onecx-example-custom-auth-ui",
+  "name": "onecx-service-auth-ui",
   "$schema": "node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "prefix": "app",
@@ -10,7 +10,7 @@
       "executor": "@angular-devkit/build-angular:browser",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/onecx-example-custom-auth-ui",
+        "outputPath": "dist/onecx-service-auth-ui",
         "polyfills": ["zone.js"],
         "tsConfig": "./tsconfig.app.json",
         "inlineStyleLanguage": "scss",
@@ -49,10 +49,10 @@
       "executor": "@angular-devkit/build-angular:dev-server",
       "configurations": {
         "production": {
-          "buildTarget": "onecx-example-custom-auth-ui:build:production"
+          "buildTarget": "onecx-service-auth-ui:build:production"
         },
         "development": {
-          "buildTarget": "onecx-example-custom-auth-ui:build:development"
+          "buildTarget": "onecx-service-auth-ui:build:development"
         }
       },
       "defaultConfiguration": "development"
@@ -60,7 +60,7 @@
     "extract-i18n": {
       "executor": "@angular-devkit/build-angular:extract-i18n",
       "options": {
-        "buildTarget": "onecx-example-custom-auth-ui:build"
+        "buildTarget": "onecx-service-auth-ui:build"
       }
     },
     "lint": {

@@ -12,7 +12,7 @@ const ignoredPathPatterns: string[] = [
 ];
 
 const config: Config = {
-  displayName: 'onecx-example-custom-auth-ui',
+  displayName: 'onecx-service-auth-ui',
   silent: true,
   verbose: false,
   testEnvironment: 'jsdom',

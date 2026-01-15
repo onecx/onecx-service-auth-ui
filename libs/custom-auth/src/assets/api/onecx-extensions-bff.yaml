@@ -1,9 +1,9 @@
 openapi: '3.0.3'
 info:
-  title: onecx-example-custom-auth-bff
+  title: onecx-service-auth-bff
   version: '1.0'
 servers:
-  - url: https://onecx-example-custom-auth-bff:8080
+  - url: https://onecx-service-auth-bff:8080
 tags:
   - name: ExtensionsInternal
     description: Extensions internal methods

@@ -99,8 +99,8 @@
         "implicitDependencies": []
       }
     },
-    "onecx-example-custom-auth-ui": {
-      "name": "onecx-example-custom-auth-ui",
+    "onecx-service-auth-ui": {
+      "name": "onecx-service-auth-ui",
       "type": "app",
       "data": {
         "root": ".",
@@ -112,7 +112,7 @@
               "{options.outputPath}"
             ],
             "options": {
-              "outputPath": "dist/onecx-example-custom-auth-ui",
+              "outputPath": "dist/onecx-service-auth-ui",
               "polyfills": [
                 "zone.js"
               ],
@@ -163,10 +163,10 @@
             "executor": "@angular-devkit/build-angular:dev-server",
             "configurations": {
               "production": {
-                "buildTarget": "onecx-example-custom-auth-ui:build:production"
+                "buildTarget": "onecx-service-auth-ui:build:production"
               },
               "development": {
-                "buildTarget": "onecx-example-custom-auth-ui:build:development"
+                "buildTarget": "onecx-service-auth-ui:build:development"
               }
             },
             "defaultConfiguration": "development",
@@ -205,7 +205,7 @@
           "extract-i18n": {
             "executor": "@angular-devkit/build-angular:extract-i18n",
             "options": {
-              "buildTarget": "onecx-example-custom-auth-ui:build"
+              "buildTarget": "onecx-service-auth-ui:build"
             },
             "configurations": {},
             "parallelism": true
@@ -250,7 +250,7 @@
           }
         },
         "sourceRoot": "./src",
-        "name": "onecx-example-custom-auth-ui",
+        "name": "onecx-service-auth-ui",
         "includedScripts": [],
         "tags": [
           "npm:public"
@@ -13140,199 +13140,199 @@
         "type": "static"
       }
     ],
-    "onecx-example-custom-auth-ui": [
+    "onecx-service-auth-ui": [
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:jest",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:@nx/jest",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:@nx/js",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:@nx/workspace",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:@nx/eslint",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:@nx/eslint-plugin",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:@angular-eslint/builder",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:@angular-eslint/eslint-plugin",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:@angular-eslint/eslint-plugin-template",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:@angular-eslint/schematics",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:@angular-eslint/template-parser",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:@schematics/angular",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:@swc-node/register",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:@swc/core",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:@swc/helpers",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:@types/jest",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:@types/node",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:@typescript-eslint/eslint-plugin",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:@typescript-eslint/parser",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:eslint",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:eslint-config-prettier",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:jest-environment-jsdom",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:jest-marbles",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:jest-preset-angular",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:jest-sonar",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:jest-sonar-reporter",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:nx",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:prettier",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:ts-jest",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:ts-node",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:typescript",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:webpack-cli",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:@ngx-translate/core",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:@nx/angular",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:@openapitools/openapi-generator-cli",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:@nx/webpack",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:rxjs",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:tslib",
         "type": "static"
       },
       {
-        "source": "onecx-example-custom-auth-ui",
+        "source": "onecx-service-auth-ui",
         "target": "npm:sonar-scanner",
         "type": "static"
       }

@@ -1,12 +1,12 @@
 apiVersion: v2
-name: onecx-example-custom-auth-ui
+name: onecx-service-auth-ui
 version: 0.0.0
 description: OneCX example custom auth UI
-home: https://github.com/onecx/onecx-example-custom-auth-ui
+home: https://github.com/onecx/onecx-service-auth-ui
 keywords:
-  - example-custom-auth
+  - service-auth
 sources:
-  - https://github.com/onecx/onecx-example-custom-auth-ui
+  - https://github.com/onecx/onecx-service-auth-ui
 maintainers:
   - name: OneCX Developer Team
     email: tkit_dev@1000kit.org
