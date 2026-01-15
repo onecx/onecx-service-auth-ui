@@ -58,6 +58,130 @@
   ],
   "fileMap": {
     "projectFileMap": {
+      "custom-auth": [
+        {
+          "file": "libs/custom-auth/.babelrc",
+          "hash": "9295258424596316876"
+        },
+        {
+          "file": "libs/custom-auth/.eslintrc.json",
+          "hash": "3246629659686639861"
+        },
+        {
+          "file": "libs/custom-auth/README.md",
+          "hash": "18335352410442434258"
+        },
+        {
+          "file": "libs/custom-auth/jest.config.ts",
+          "hash": "12825153910189297568"
+        },
+        {
+          "file": "libs/custom-auth/package.json",
+          "hash": "17104525851551914302"
+        },
+        {
+          "file": "libs/custom-auth/project.json",
+          "hash": "4417426966270607192"
+        },
+        {
+          "file": "libs/custom-auth/src/assets/api/onecx-extensions-bff.yaml",
+          "hash": "8499193028268946940"
+        },
+        {
+          "file": "libs/custom-auth/src/index.ts",
+          "hash": "864532777308071261"
+        },
+        {
+          "file": "libs/custom-auth/src/lib/auth.service.ts",
+          "hash": "7830188396398311621"
+        },
+        {
+          "file": "libs/custom-auth/src/lib/custom-auth-service.spec.ts",
+          "hash": "1379450218390037277"
+        },
+        {
+          "file": "libs/custom-auth/src/lib/custom-auth-service.ts",
+          "hash": "12224506452504628859"
+        },
+        {
+          "file": "libs/custom-auth/src/lib/shared/generated/.openapi-generator-ignore",
+          "hash": "5921108589004068994"
+        },
+        {
+          "file": "libs/custom-auth/src/lib/shared/generated/.openapi-generator/FILES",
+          "hash": "12302938178162583059"
+        },
+        {
+          "file": "libs/custom-auth/src/lib/shared/generated/.openapi-generator/VERSION",
+          "hash": "16136251632416930662"
+        },
+        {
+          "file": "libs/custom-auth/src/lib/shared/generated/apis/ExtensionsInternalApi.ts",
+          "hash": "13961957286176860478"
+        },
+        {
+          "file": "libs/custom-auth/src/lib/shared/generated/apis/index.ts",
+          "hash": "16819893022531664962"
+        },
+        {
+          "file": "libs/custom-auth/src/lib/shared/generated/index.ts",
+          "hash": "2306563215003154937"
+        },
+        {
+          "file": "libs/custom-auth/src/lib/shared/generated/models/ConfigRequest.ts",
+          "hash": "2327154772257003186"
+        },
+        {
+          "file": "libs/custom-auth/src/lib/shared/generated/models/ConfigResponse.ts",
+          "hash": "18069850402845158057"
+        },
+        {
+          "file": "libs/custom-auth/src/lib/shared/generated/models/ProblemDetailInvalidParam.ts",
+          "hash": "12940325186683154530"
+        },
+        {
+          "file": "libs/custom-auth/src/lib/shared/generated/models/ProblemDetailParam.ts",
+          "hash": "470352398288944867"
+        },
+        {
+          "file": "libs/custom-auth/src/lib/shared/generated/models/ProblemDetailResponse.ts",
+          "hash": "3111196837167965801"
+        },
+        {
+          "file": "libs/custom-auth/src/lib/shared/generated/models/index.ts",
+          "hash": "13256497418406722080"
+        },
+        {
+          "file": "libs/custom-auth/src/lib/shared/generated/runtime.ts",
+          "hash": "2682968820378012349"
+        },
+        {
+          "file": "libs/custom-auth/src/test-setup.ts",
+          "hash": "12935735732682149507",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "libs/custom-auth/tsconfig.json",
+          "hash": "6573113948380249019"
+        },
+        {
+          "file": "libs/custom-auth/tsconfig.lib.json",
+          "hash": "8426894938619200864"
+        },
+        {
+          "file": "libs/custom-auth/tsconfig.spec.json",
+          "hash": "566365983207832923"
+        },
+        {
+          "file": "libs/custom-auth/webpack.config.js",
+          "hash": "12251705723748857750",
+          "deps": [
+            "npm:webpack"
+          ]
+        }
+      ],
       "onecx-example-custom-auth-ui": [
         {
           "file": ".eslintignore",
@@ -292,130 +416,6 @@
         {
           "file": "webpack.config.prod.js",
           "hash": "2230761163249055217"
-        }
-      ],
-      "custom-auth": [
-        {
-          "file": "libs/custom-auth/.babelrc",
-          "hash": "9295258424596316876"
-        },
-        {
-          "file": "libs/custom-auth/.eslintrc.json",
-          "hash": "3246629659686639861"
-        },
-        {
-          "file": "libs/custom-auth/README.md",
-          "hash": "18335352410442434258"
-        },
-        {
-          "file": "libs/custom-auth/jest.config.ts",
-          "hash": "12825153910189297568"
-        },
-        {
-          "file": "libs/custom-auth/package.json",
-          "hash": "17104525851551914302"
-        },
-        {
-          "file": "libs/custom-auth/project.json",
-          "hash": "4417426966270607192"
-        },
-        {
-          "file": "libs/custom-auth/src/assets/api/onecx-extensions-bff.yaml",
-          "hash": "8499193028268946940"
-        },
-        {
-          "file": "libs/custom-auth/src/index.ts",
-          "hash": "864532777308071261"
-        },
-        {
-          "file": "libs/custom-auth/src/lib/auth.service.ts",
-          "hash": "7830188396398311621"
-        },
-        {
-          "file": "libs/custom-auth/src/lib/custom-auth-service.spec.ts",
-          "hash": "1379450218390037277"
-        },
-        {
-          "file": "libs/custom-auth/src/lib/custom-auth-service.ts",
-          "hash": "12224506452504628859"
-        },
-        {
-          "file": "libs/custom-auth/src/lib/shared/generated/.openapi-generator-ignore",
-          "hash": "5921108589004068994"
-        },
-        {
-          "file": "libs/custom-auth/src/lib/shared/generated/.openapi-generator/FILES",
-          "hash": "12302938178162583059"
-        },
-        {
-          "file": "libs/custom-auth/src/lib/shared/generated/.openapi-generator/VERSION",
-          "hash": "16136251632416930662"
-        },
-        {
-          "file": "libs/custom-auth/src/lib/shared/generated/apis/ExtensionsInternalApi.ts",
-          "hash": "13961957286176860478"
-        },
-        {
-          "file": "libs/custom-auth/src/lib/shared/generated/apis/index.ts",
-          "hash": "16819893022531664962"
-        },
-        {
-          "file": "libs/custom-auth/src/lib/shared/generated/index.ts",
-          "hash": "2306563215003154937"
-        },
-        {
-          "file": "libs/custom-auth/src/lib/shared/generated/models/ConfigRequest.ts",
-          "hash": "2327154772257003186"
-        },
-        {
-          "file": "libs/custom-auth/src/lib/shared/generated/models/ConfigResponse.ts",
-          "hash": "18069850402845158057"
-        },
-        {
-          "file": "libs/custom-auth/src/lib/shared/generated/models/ProblemDetailInvalidParam.ts",
-          "hash": "12940325186683154530"
-        },
-        {
-          "file": "libs/custom-auth/src/lib/shared/generated/models/ProblemDetailParam.ts",
-          "hash": "470352398288944867"
-        },
-        {
-          "file": "libs/custom-auth/src/lib/shared/generated/models/ProblemDetailResponse.ts",
-          "hash": "3111196837167965801"
-        },
-        {
-          "file": "libs/custom-auth/src/lib/shared/generated/models/index.ts",
-          "hash": "13256497418406722080"
-        },
-        {
-          "file": "libs/custom-auth/src/lib/shared/generated/runtime.ts",
-          "hash": "2682968820378012349"
-        },
-        {
-          "file": "libs/custom-auth/src/test-setup.ts",
-          "hash": "12935735732682149507",
-          "deps": [
-            "npm:jest-preset-angular"
-          ]
-        },
-        {
-          "file": "libs/custom-auth/tsconfig.json",
-          "hash": "6573113948380249019"
-        },
-        {
-          "file": "libs/custom-auth/tsconfig.lib.json",
-          "hash": "8426894938619200864"
-        },
-        {
-          "file": "libs/custom-auth/tsconfig.spec.json",
-          "hash": "566365983207832923"
-        },
-        {
-          "file": "libs/custom-auth/webpack.config.js",
-          "hash": "12251705723748857750",
-          "deps": [
-            "npm:webpack"
-          ]
         }
       ]
     },
