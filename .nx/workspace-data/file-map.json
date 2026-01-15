@@ -31,7 +31,10 @@
     "eslint-config-prettier": "9.1.0",
     "jest": "^29.4.1",
     "jest-environment-jsdom": "^29.4.1",
+    "jest-marbles": "3.1.1",
     "jest-preset-angular": "14.2.4",
+    "jest-sonar": "^0.2.16",
+    "jest-sonar-reporter": "^2.0.0",
     "nx": "19.8.2",
     "prettier": "^2.6.2",
     "ts-jest": "^29.1.0",
@@ -55,6 +58,242 @@
   ],
   "fileMap": {
     "projectFileMap": {
+      "onecx-example-custom-auth-ui": [
+        {
+          "file": ".eslintignore",
+          "hash": "7663861978715868291"
+        },
+        {
+          "file": ".eslintrc.base.json",
+          "hash": "18315524891129148814"
+        },
+        {
+          "file": ".eslintrc.json",
+          "hash": "7569532010265774783"
+        },
+        {
+          "file": ".github/changelog.yaml",
+          "hash": "17069922348530254362"
+        },
+        {
+          "file": ".github/dependabot.yml",
+          "hash": "15141079812631496351"
+        },
+        {
+          "file": ".github/workflows/build-branch.yml",
+          "hash": "2095458320857104325"
+        },
+        {
+          "file": ".github/workflows/build-pr-merge.yml",
+          "hash": "11564317552476333749"
+        },
+        {
+          "file": ".github/workflows/build-pr.yml",
+          "hash": "16939667936683731288"
+        },
+        {
+          "file": ".github/workflows/build-release.yml",
+          "hash": "51233600811587388"
+        },
+        {
+          "file": ".github/workflows/build.yml",
+          "hash": "13791926861243569202"
+        },
+        {
+          "file": ".github/workflows/create-fix-branch.yml",
+          "hash": "1609863691093314622"
+        },
+        {
+          "file": ".github/workflows/create-new-build.yml",
+          "hash": "5600439313633904518"
+        },
+        {
+          "file": ".github/workflows/create-release.yml",
+          "hash": "7021268029683984172"
+        },
+        {
+          "file": ".github/workflows/documentation.yml",
+          "hash": "8652750620384697174"
+        },
+        {
+          "file": ".github/workflows/security.yml",
+          "hash": "5339361557120945286"
+        },
+        {
+          "file": ".github/workflows/sonar-pr.yml",
+          "hash": "14398570450818033939"
+        },
+        {
+          "file": ".github/workflows/userdocumentation.yml",
+          "hash": "16472016158507615580"
+        },
+        {
+          "file": ".gitignore",
+          "hash": "14987323992150681032"
+        },
+        {
+          "file": ".prettierignore",
+          "hash": "3395189204293871444"
+        },
+        {
+          "file": ".prettierrc",
+          "hash": "16267754514737964994"
+        },
+        {
+          "file": ".vscode/extensions.json",
+          "hash": "4934098906304722861"
+        },
+        {
+          "file": "Dockerfile",
+          "hash": "806212398205528181"
+        },
+        {
+          "file": "LICENSE",
+          "hash": "12649885980860800067"
+        },
+        {
+          "file": "README.md",
+          "hash": "3289756575025559292"
+        },
+        {
+          "file": "apigen.yaml",
+          "hash": "10584207000897362811"
+        },
+        {
+          "file": "helm/Chart.yaml",
+          "hash": "15341942007910201439"
+        },
+        {
+          "file": "helm/values.yaml",
+          "hash": "11058373015499940782"
+        },
+        {
+          "file": "jest.config.app.ts",
+          "hash": "9376907647840376922",
+          "deps": [
+            "npm:jest"
+          ]
+        },
+        {
+          "file": "jest.config.ts",
+          "hash": "3494843969422251966",
+          "deps": [
+            "npm:@nx/jest"
+          ]
+        },
+        {
+          "file": "jest.preset.js",
+          "hash": "9430166341120122740",
+          "deps": [
+            "npm:@nx/jest"
+          ]
+        },
+        {
+          "file": "nginx/locations.conf",
+          "hash": "14432971597759912139"
+        },
+        {
+          "file": "nx.json",
+          "hash": "2825942886862505935"
+        },
+        {
+          "file": "openapitools.json",
+          "hash": "10050824257331393797"
+        },
+        {
+          "file": "package-lock.json",
+          "hash": "15680703259375734766"
+        },
+        {
+          "file": "package.json",
+          "hash": "6855178050215547280",
+          "deps": [
+            "npm:@nx/jest",
+            "npm:@nx/js",
+            "npm:@nx/workspace",
+            "npm:@nx/eslint",
+            "npm:@nx/eslint-plugin",
+            "npm:@angular-eslint/builder",
+            "npm:@angular-eslint/eslint-plugin",
+            "npm:@angular-eslint/eslint-plugin-template",
+            "npm:@angular-eslint/schematics",
+            "npm:@angular-eslint/template-parser",
+            "npm:@schematics/angular",
+            "npm:@swc-node/register",
+            "npm:@swc/core",
+            "npm:@swc/helpers",
+            "npm:@types/jest",
+            "npm:@types/node",
+            "npm:@typescript-eslint/eslint-plugin",
+            "npm:@typescript-eslint/parser",
+            "npm:eslint",
+            "npm:eslint-config-prettier",
+            "npm:jest",
+            "npm:jest-environment-jsdom",
+            "npm:jest-marbles",
+            "npm:jest-preset-angular",
+            "npm:jest-sonar",
+            "npm:jest-sonar-reporter",
+            "npm:nx",
+            "npm:prettier",
+            "npm:ts-jest",
+            "npm:ts-node",
+            "npm:typescript",
+            "npm:webpack-cli",
+            "npm:@ngx-translate/core",
+            "npm:@nx/angular",
+            "npm:@openapitools/openapi-generator-cli",
+            "npm:@nx/webpack",
+            "npm:rxjs",
+            "npm:tslib",
+            "npm:sonar-scanner"
+          ]
+        },
+        {
+          "file": "project.json",
+          "hash": "16734233355772725173"
+        },
+        {
+          "file": "proxy.conf.js",
+          "hash": "14859473721144547529"
+        },
+        {
+          "file": "sonar-project.properties",
+          "hash": "225674613897486462"
+        },
+        {
+          "file": "src/index.js",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "tsconfig.app.json",
+          "hash": "1263849314716919355"
+        },
+        {
+          "file": "tsconfig.base.json",
+          "hash": "12038547062257487755"
+        },
+        {
+          "file": "tsconfig.editor.json",
+          "hash": "1055794200401717100"
+        },
+        {
+          "file": "tsconfig.json",
+          "hash": "876660348947672445"
+        },
+        {
+          "file": "tsconfig.spec.json",
+          "hash": "8066256104411661862"
+        },
+        {
+          "file": "webpack.config.js",
+          "hash": "13903617197808366165"
+        },
+        {
+          "file": "webpack.config.prod.js",
+          "hash": "2230761163249055217"
+        }
+      ],
       "custom-auth": [
         {
           "file": "libs/custom-auth/.babelrc",
@@ -93,8 +332,12 @@
           "hash": "7830188396398311621"
         },
         {
+          "file": "libs/custom-auth/src/lib/custom-auth-service.spec.ts",
+          "hash": "1379450218390037277"
+        },
+        {
           "file": "libs/custom-auth/src/lib/custom-auth-service.ts",
-          "hash": "3127472168361656778"
+          "hash": "12224506452504628859"
         },
         {
           "file": "libs/custom-auth/src/lib/shared/generated/.openapi-generator-ignore",
@@ -173,219 +416,6 @@
           "deps": [
             "npm:webpack"
           ]
-        }
-      ],
-      "onecx-example-custom-auth-ui": [
-        {
-          "file": ".eslintignore",
-          "hash": "7663861978715868291"
-        },
-        {
-          "file": ".eslintrc.base.json",
-          "hash": "18315524891129148814"
-        },
-        {
-          "file": ".eslintrc.json",
-          "hash": "7569532010265774783"
-        },
-        {
-          "file": ".github/changelog.yaml",
-          "hash": "17069922348530254362"
-        },
-        {
-          "file": ".github/dependabot.yml",
-          "hash": "16534208289809042243"
-        },
-        {
-          "file": ".github/workflows/build-branch.yml",
-          "hash": "15128729573391846202"
-        },
-        {
-          "file": ".github/workflows/build-pr.yml",
-          "hash": "16939667936683731288"
-        },
-        {
-          "file": ".github/workflows/build-release.yml",
-          "hash": "51233600811587388"
-        },
-        {
-          "file": ".github/workflows/build.yml",
-          "hash": "7835814284233939079"
-        },
-        {
-          "file": ".github/workflows/create-fix-branch.yml",
-          "hash": "1609863691093314622"
-        },
-        {
-          "file": ".github/workflows/create-new-build.yml",
-          "hash": "5600439313633904518"
-        },
-        {
-          "file": ".github/workflows/create-release.yml",
-          "hash": "7021268029683984172"
-        },
-        {
-          "file": ".github/workflows/documentation.yml",
-          "hash": "8652750620384697174"
-        },
-        {
-          "file": ".github/workflows/sonar-pr.yml",
-          "hash": "14398570450818033939"
-        },
-        {
-          "file": ".github/workflows/userdocumentation.yml",
-          "hash": "16472016158507615580"
-        },
-        {
-          "file": ".gitignore",
-          "hash": "14987323992150681032"
-        },
-        {
-          "file": ".prettierignore",
-          "hash": "3395189204293871444"
-        },
-        {
-          "file": ".prettierrc",
-          "hash": "16267754514737964994"
-        },
-        {
-          "file": ".vscode/extensions.json",
-          "hash": "4934098906304722861"
-        },
-        {
-          "file": "Dockerfile",
-          "hash": "10712025663021669445"
-        },
-        {
-          "file": "LICENSE",
-          "hash": "12649885980860800067"
-        },
-        {
-          "file": "README.md",
-          "hash": "3289756575025559292"
-        },
-        {
-          "file": "apigen.yaml",
-          "hash": "10584207000897362811"
-        },
-        {
-          "file": "helm/Chart.yaml",
-          "hash": "16048183341368038806"
-        },
-        {
-          "file": "helm/values.yaml",
-          "hash": "11058373015499940782"
-        },
-        {
-          "file": "jest.config.app.ts",
-          "hash": "6300190006321080178"
-        },
-        {
-          "file": "jest.config.ts",
-          "hash": "3494843969422251966",
-          "deps": [
-            "npm:@nx/jest"
-          ]
-        },
-        {
-          "file": "jest.preset.js",
-          "hash": "9430166341120122740",
-          "deps": [
-            "npm:@nx/jest"
-          ]
-        },
-        {
-          "file": "nginx/locations.conf",
-          "hash": "14432971597759912139"
-        },
-        {
-          "file": "nx.json",
-          "hash": "2825942886862505935"
-        },
-        {
-          "file": "openapitools.json",
-          "hash": "10050824257331393797"
-        },
-        {
-          "file": "package-lock.json",
-          "hash": "8339338912709064507"
-        },
-        {
-          "file": "package.json",
-          "hash": "16350833010444180192",
-          "deps": [
-            "npm:@nx/jest",
-            "npm:@nx/js",
-            "npm:@nx/workspace",
-            "npm:@nx/eslint",
-            "npm:@nx/eslint-plugin",
-            "npm:@schematics/angular",
-            "npm:@swc-node/register",
-            "npm:@swc/core",
-            "npm:@swc/helpers",
-            "npm:@types/jest",
-            "npm:@types/node",
-            "npm:@typescript-eslint/eslint-plugin",
-            "npm:@typescript-eslint/parser",
-            "npm:eslint",
-            "npm:eslint-config-prettier",
-            "npm:jest",
-            "npm:jest-environment-jsdom",
-            "npm:jest-preset-angular",
-            "npm:nx",
-            "npm:prettier",
-            "npm:ts-jest",
-            "npm:ts-node",
-            "npm:typescript",
-            "npm:webpack-cli",
-            "npm:@ngx-translate/core",
-            "npm:@nx/angular",
-            "npm:@openapitools/openapi-generator-cli",
-            "npm:@nx/webpack",
-            "npm:rxjs",
-            "npm:tslib",
-            "npm:sonar-scanner"
-          ]
-        },
-        {
-          "file": "project.json",
-          "hash": "16734233355772725173"
-        },
-        {
-          "file": "proxy.conf.js",
-          "hash": "14859473721144547529"
-        },
-        {
-          "file": "src/index.js",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "tsconfig.app.json",
-          "hash": "1263849314716919355"
-        },
-        {
-          "file": "tsconfig.base.json",
-          "hash": "12038547062257487755"
-        },
-        {
-          "file": "tsconfig.editor.json",
-          "hash": "1055794200401717100"
-        },
-        {
-          "file": "tsconfig.json",
-          "hash": "876660348947672445"
-        },
-        {
-          "file": "tsconfig.spec.json",
-          "hash": "8066256104411661862"
-        },
-        {
-          "file": "webpack.config.js",
-          "hash": "13903617197808366165"
-        },
-        {
-          "file": "webpack.config.prod.js",
-          "hash": "2230761163249055217"
         }
       ]
     },
