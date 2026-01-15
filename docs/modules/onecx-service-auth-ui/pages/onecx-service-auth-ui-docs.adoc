@@ -1,0 +1,4 @@
+== OneCX Service Auth UI
+
+=== What is OneCX Service Auth UI?
+OneCX Service Auth refers to the process of replacing the default auth mechanism of OneCX.

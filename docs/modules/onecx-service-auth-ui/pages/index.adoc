@@ -1,0 +1,4 @@
+
+== onecx-service-auth-ui
+
+include::onecx-service-auth-ui-docs.adoc[opts=optional]
