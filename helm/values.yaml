@@ -1,5 +1,5 @@
 app:
-  name: ui
+  name: auth-ui
   image:
     repository: 'onecx/onecx-service-auth-ui'
   routing:
