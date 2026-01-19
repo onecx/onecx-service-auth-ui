@@ -1,1 +1,1 @@
-** xref:documentation:onecx-service-auth-ui:index.adoc[User Interface]
+** xref:documentation:onecx-service-auth-ui:index.adoc[Auth User Interface]
