@@ -1,4 +1,3 @@
+= OneCX Service Custom Auth UI
 
-== onecx-service-auth-ui
-
-include::onecx-service-auth-ui-docs.adoc[opts=optional]
+OneCX Service Custom Auth refers to the process of replacing the default authentication mechanism of OneCX.
