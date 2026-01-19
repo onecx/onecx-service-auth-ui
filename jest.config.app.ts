@@ -4,11 +4,7 @@ import type { Config } from 'jest';
 const ignoredModulePatterns: string = ['d3-.*', '(.*.mjs$)'].join('|');
 // list of patterns excluded by testing/coverage (default: node_modules)
 const ignoredPathPatterns: string[] = [
-  '<rootDir>/libs/custom-auth/lib/pre_loaders/',
-  '<rootDir>/libs/custom-auth/src/lib/main.ts',
-  '<rootDir>/libs/custom-auth/src/lib/bootstrap.ts',
-  '<rootDir>/libs/custom-auth/src/lib/scope-polyfill',
-  '<rootDir>/libs/custom-auth/src/lib/shared/generated',
+  '<rootDir>/libs/custom-auth/src/lib/shared/generated'
 ];
 
 const config: Config = {
@@ -21,7 +17,7 @@ const config: Config = {
   snapshotSerializers: [
     'jest-preset-angular/build/serializers/no-ng-attributes',
     'jest-preset-angular/build/serializers/ng-snapshot',
-    'jest-preset-angular/build/serializers/html-comment',
+    'jest-preset-angular/build/serializers/html-comment'
   ],
   testMatch: ['<rootDir>/libs/custom-auth/src/lib/*.spec.ts'],
   testPathIgnorePatterns: ignoredPathPatterns,
@@ -35,27 +31,27 @@ const config: Config = {
       'jest-preset-angular',
       {
         tsconfig: '<rootDir>/tsconfig.spec.json',
-        stringifyContentPathRegex: '\\.(html|svg)$',
-      },
-    ],
+        stringifyContentPathRegex: '\\.(html|svg)$'
+      }
+    ]
   },
   // reporting
   collectCoverage: true,
   coverageDirectory: '<rootDir>/reports/coverage/',
   coveragePathIgnorePatterns: ignoredPathPatterns,
-  coverageReporters: ['json', 'text', 'lcov', 'text-summary'],
+  coverageReporters: ['json', 'lcov', 'text', 'text-summary'],
   testResultsProcessor: 'jest-sonar-reporter',
   reporters: [
     'default',
     [
       'jest-sonar',
       {
-        outputDirectory: 'reports',
+        outputDirectory: './reports',
         outputName: 'sonarqube_report.xml',
-        reportedFilePath: 'absolute',
-      },
-    ],
-  ],
+        reportedFilePath: 'absolute'
+      }
+    ]
+  ]
 };
 
 export default config;
