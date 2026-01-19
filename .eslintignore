@@ -1,1 +1,12 @@
-node_modules
+.nx/**
+.angular/**
+.husky/**
+.github/**
+dist/**
+helm/**
+node_modules/**
+reports/**
+libs/custom-auth/src/lib/shared/generated/**
+libs/custom-auth/src/assets/api/**
+libs/custom-auth/src/**/*.ico
+libs/custom-auth/src/**/*.svg
