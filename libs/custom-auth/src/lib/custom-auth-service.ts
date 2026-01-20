@@ -6,10 +6,10 @@ import {
 } from './shared/generated';
 
 export class CustomAuthService implements AuthService {
-  private bffServiceURL: string;
+  private readonly bffServiceURL: string;
 
   constructor(
-    private keycloakAuthService: AuthService,
+    private readonly keycloakAuthService: AuthService,
     config: Record<string, string>
   ) {
     this.bffServiceURL = config['AUTH_SERVICE_CUSTOM_BFF_URL'];
@@ -26,12 +26,12 @@ export class CustomAuthService implements AuthService {
 
     const configResponse: ConfigResponse = await postsApi.getConfiguration({
       configRequest: {
-        href: window.location.href,
+        href: globalThis.location.href,
         idpHint: localStorage.getItem('kcIdpHint') ?? undefined,
         idmId:
           new URL(
             localStorage.getItem('logoutRedirectUrl') ?? '/',
-            window.origin
+            globalThis.origin
           ).searchParams.get('idmId') ??
           localStorage.getItem('idmId') ??
           undefined,
@@ -80,12 +80,12 @@ export class CustomAuthService implements AuthService {
         }),
       }).then((response) => {
         if (response.redirected) {
-          window.location.href = response.url;
+          globalThis.location.href = response.url;
           return;
         }
 
         if (response.ok) {
-          window.location.reload();
+          globalThis.location.reload();
           return;
         }
         throw new Error('Logout failed, request returned an error code.');

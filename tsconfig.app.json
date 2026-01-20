@@ -4,6 +4,6 @@
     "outDir": "./dist/out-tsc",
     "types": []
   },
-  "include": ["src/**/*.d.ts"],
-  "exclude": ["jest.config.ts", "src/**/*.test.ts", "src/**/*.spec.ts"]
+  "include": ["libs/custom-auth/src/**/*.d.ts"],
+  "exclude": ["jest.config.ts", "libs/custom-auth/src/**/*.test.ts", "libs/custom-auth/src/**/*.spec.ts"]
 }

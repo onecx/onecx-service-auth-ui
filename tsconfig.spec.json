@@ -8,8 +8,8 @@
   },
   "include": [
     "jest.config.ts",
-    "src/**/*.test.ts",
-    "src/**/*.spec.ts",
-    "src/**/*.d.ts"
+    "libs/custom-auth/src/**/*.test.ts",
+    "libs/custom-auth/src/**/*.spec.ts",
+    "libs/custom-auth/src/**/*.d.ts"
   ]
 }
